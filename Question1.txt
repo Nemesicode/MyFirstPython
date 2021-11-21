@@ -1,0 +1,5 @@
+for x in range(2000 , 3201): #This will start the loop from 2000 till 3200 because the range function goes till x-1 (In this case 3201 - 1)
+
+if x % 7 == 0 and x % 5 != 0 : #This satisfies the given requirements
+
+print(x)
